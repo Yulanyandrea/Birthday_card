@@ -37,6 +37,20 @@
   height: 117px;
 }
 
+@media(min-width:500px){
+	#mom{
+    height: 141px;
+  }
+
+  #fight{
+    height: 141px;
+  }
+
+  #nepal{
+    height: 141px;
+  }
+}
+
 @media(min-width:1200px){
   .years{
     padding-top: 144px;

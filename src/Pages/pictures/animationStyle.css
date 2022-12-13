@@ -103,16 +103,26 @@ a{
 		top: 82%;
 	}
 }
+
+@media(min-width:400px){
+	.container{
+		top: 120%;
+		left: 67%;
+	}
+}
+
 @media (min-width:600px) {
   .container{
-		top: 46%;
+		top: 113%;
     left: 78%;
 	}
 }
 
 @media(min-width:1200px){
 	.container{
-		width: 361px;
-		height: 380px;
+		top: 250%;
+		width: 100%;
+		height: 163%;
+
 	}
 }
