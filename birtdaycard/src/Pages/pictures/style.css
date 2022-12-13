@@ -1,0 +1,63 @@
+@import url('https://fonts.googleapis.com/css2?family=Indie+Flower&display=swap');
+
+.years{
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+  padding: 27px;
+  font-family: 'Indie Flower', cursive;
+}
+
+.years__text{
+  background-color: rgb(175, 132, 215);
+  font-size: 14px;
+}
+
+#mom{
+  width: 31%;
+  border-radius: 100%;
+  border-style: groove;
+  border-color: white;
+  height: 117px;
+}
+
+#fight{
+  width: 32%;
+  border-radius: 100%;
+  border-style: groove;
+  border-color: white;
+  height: 112px;
+}
+
+#nepal{
+  width: 32%;
+  border-radius: 100%;
+  border-style: groove;
+  border-color: white;
+  height: 117px;
+}
+
+@media(min-width:1200px){
+  .years{
+    padding-top: 144px;
+    width: 100%;
+    justify-content: center;
+    font-size: 30px;
+  }
+
+  .years__text{
+    font-size: 28px;
+  }
+
+  #mom{
+    height: 325px;
+  }
+
+  #fight{
+    height: 325px;
+  }
+
+  #nepal{
+    height: 325px;
+  }
+}
