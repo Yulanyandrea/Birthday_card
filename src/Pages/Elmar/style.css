@@ -13,6 +13,8 @@
   flex-direction: column;
   justify-content: center;
   padding: 38px;
+  padding-top: 176px;
+  font-size: 34px;
 }
 
 .container__home{
@@ -35,14 +37,17 @@
   display: flex;
   justify-content: center;
   border-radius: 10px;
-  height: 25px;
+  height: 42px;
   box-shadow: 0 0 44px rgb(0 0 0 / 80%);
+  font-size: 24px;
 
 }
 
 .container__button:hover{
   background-color: #ffab50;
 }
+
+
 
 @media(min-width:1200px){
   .containerPage{

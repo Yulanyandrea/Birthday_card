@@ -98,6 +98,18 @@ a{
   }
 }
 
+@media (min-width:380px) {
+  .container{
+		top: 82%;
+	}
+}
+@media (min-width:600px) {
+  .container{
+		top: 46%;
+    left: 78%;
+	}
+}
+
 @media(min-width:1200px){
 	.container{
 		width: 361px;
